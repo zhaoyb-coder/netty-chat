@@ -53,4 +53,9 @@ public class ChatServer {
         }
     }
 
+    public static void main(String[] args) {
+        //启动服务器
+        new ChatServer();
+    }
+
 }
